@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mostafa Ahmed personal portfolio page">
+
+    <title>Mostafa Ahmed - Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h2>Mostafa Ahmed</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+
+            <h1>Welcome to My Portfolio</h1>
+
+            <p>
+                My name is <strong>Mostafa Ahmed</strong>.
+                I am a computer science student interested in
+                programming, artificial intelligence and technology.
+            </p>
+
+            <p>
+                I enjoy <em>learning new technologies</em> and
+                improving my skills every day.
+            </p>
+
+            <img src="./images/cat.png" alt="cat" width="300">
+
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+
+            <h2>My Learning Journey</h2>
+
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn JavaScript</li>
+                <li>Learn React</li>
+            </ol>
+
+            <p>
+                I am <strong>passionate</strong> about technology and
+                <em>always trying to improve</em> my skills.
+                <mark>Learning never stops.</mark>
+            </p>
+
+            <span>My goal is to become a successful developer.</span>
+
+        </section>
+
+        <hr>
+
+        <!-- Courses Section -->
+        <section id="courses">
+
+            <h2>My Courses</h2>
+
+            <table border="1">
+
+                <caption>Courses I Have Studied</caption>
+
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>1 Week</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>2 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">JavaScript</td>
+                        <td>3 Weeks</td>
+                        <td>Learning</td>
+                    </tr>
+
+                    <tr>
+                        <td>Advanced</td>
+                        <td>In Progress</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">More courses coming soon.</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+
+            <h2>My Gallery</h2>
+
+            <figure>
+                <img src="./images/computerprog.png" width="300" alt="Computer programming">
+                <figcaption>Programming</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./images/Ai.png" width="300" alt="Artificial intelligence technology">
+                <figcaption>Artificial Intelligence</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./images/technology.png" width="300" alt="Modern technology">
+                <figcaption>Technology</figcaption>
+            </figure>
+
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                <br><br>
+
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate" name="birthdate">
+                <br><br>
+
+                <label for="subject">Subject:</label>
+
+                <select id="subject" name="subject">
+                    <option value="question">Question</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="work">Work</option>
+                </select>
+
+                <br><br>
+
+                <p>Preferred Contact Method:</p>
+
+                <input type="radio" id="contact-email" name="contact-method" value="email">
+                <label for="contact-email">Email</label>
+
+                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                <label for="contact-phone">Phone</label>
+
+                <br><br>
+
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions.</label>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+
+                <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>What do you study?</summary>
+                <p>I study Computer Science.</p>
+            </details>
+
+            <details>
+                <summary>What are you interested in?</summary>
+                <p>I am interested in programming, AI and technology.</p>
+            </details>
+
+            <details>
+                <summary>What is your goal?</summary>
+                <p>My goal is to become a successful software developer.</p>
+            </details>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <address>
+            Email:
+            <a href="mailto:mostafa@example.com">mostafa@example.com</a>
+            <br>
+            Egypt
+        </address>
+
+        <p>
+            <a href="https://facebook.com/" target="_blank">Facebook</a>
+            &nbsp;
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </p>
+
+        <p>&copy; 2026 Mostafa Ahmed. All rights reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
