@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 25px;
+  margin: 100px auto;
+  border: 1px solid blue;
+  border-radius: 15px;
+  box-shadow: 2px 2px 20px red;
+}
+
+img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.job-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #3498db;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: red;
+  color: indigo;
+}
