@@ -1,0 +1,94 @@
+:root {
+  --primary-color: red;
+  --secondary-color: #2ecc71;
+  --text-color: blue;
+  --card-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* element selector  */
+body {
+  background-color: #eeeeee;
+  background-image: url("../images/Featured-white-Ice.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+/* class selector */
+.profile-card {
+  width: 70%;
+  max-width: 600px;
+  min-height: 600px;
+  background-color: var(--card-color);
+  text-align: center;
+}
+
+.contact-button {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.long-text {
+  border: 1px solid black;
+  overflow: auto;
+}
+
+/* id selector */
+#name {
+  color: var(--primary-color);
+  font-size: 2em;
+}
+
+/* group selector */
+h1,
+h2,
+p,
+ul,
+div {
+  text-align: center;
+  color: var(--text-color);
+}
+/* Descendant Selector & Specificity  */
+.about-section p {
+  font-size: 1rem;
+  color: black;
+}
+/* Child Selector (`>`) */
+.skills-section > h2 {
+  color: rgb(181, 48, 238);
+}
+/* Pseudo Class (`:hover`) */
+
+.contact-button:hover {
+  background-color: var(--primary-color);
+}
+
+img:hover {
+  cursor: grab;
+}
+
+footer {
+  cursor: help;
+}
+
+li {
+  color: #2ecc71 !important;
+}
+
+ul li {
+  color: blue;
+}
